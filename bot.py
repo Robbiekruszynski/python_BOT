@@ -1,29 +1,30 @@
 import discord
 from discord.ext import commands
-# import config
-Bot = commands.Bot(command_prefix=" . ")
-# client = discord.Client()
-@Bot.event
+client = commands.Bot(command_prefix = '!')
+
+@client.event
 async def on_ready():
-    print(' bot is ready ')
+    print('BOT, RISE')
 
 
-@Bot.event
-async def on_memeber_join(memeber):
-    print(f'(memeber) has joined the One Million Developer Party!')
+@client.event
+async def on_member_join(member):
+    print(f'{member} has joined the Bridges!')
 
+@client.command()
+async def ping(ctx):
+    await ctx.send('Pong!')
 
-@Bot.event
+@client.event
 async def on_message(message):
     message.content.lower()
-    if message.author == Bot.user:
+    if message.author == client.user:
         return
     if message.content.startswith("hello"):
         await message.channel.send("Hello, I've been waiting for you...")
-#     if message.content.startswith("what?"):
-#         await message.channel.send("That's right, I've been watching you...")
-#     if message.content.startswith("test"):
-#         await message.channel.send("Test running")
+    if message.content.startswith("what?"):
+        await message.channel.send("That's right, I've been watching you...")
+    if message.content.startswith("test"):
+        await message.channel.send("Test running")
 
-
-Bot.run('')
+client.run('')
