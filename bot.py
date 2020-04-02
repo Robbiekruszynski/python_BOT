@@ -28,6 +28,18 @@ async def on_member_join(member):
 async def ping(ctx):
     await ctx.send('Pong!')
 
+@bot.command()
+async def add(ctx, left: int, right: int):
+    await ctx.send(left + right)
+
+@bot.command()
+async def joined(ctx, member: discord.Member):
+    await ctx.send('{0.name} joined in {0.joined_at}'.format(member))
+
+@bot.command()
+async def cool(ctx):
+    await ctx.send('Not cool')
+
 
 
 async def on_ready(self):
