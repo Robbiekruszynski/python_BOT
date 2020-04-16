@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 import random
-TOKEN = ""
+TOKEN = "TOKEN"
 
 bot = commands.Bot(command_prefix='!')
 
@@ -49,11 +49,7 @@ async def cool(ctx):
     await ctx.send('Not cool')
 
 
-async def on_ready(self):
-    print('Logged in as')
-    print(self.user.name)
-    print(self.user.id)
-    print('------')
+
 
 
 bot.run(TOKEN)
