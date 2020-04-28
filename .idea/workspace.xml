@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e508c7e1-942e-491d-8597-79457a876361" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/python_bot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_bot.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
     </list>
@@ -19,11 +20,11 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -34,7 +35,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.project" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RunManager" selected="Python.bot (1)">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -148,7 +149,9 @@
       <workItem from="1586222490668" duration="3920000" />
       <workItem from="1586789401497" duration="10000" />
       <workItem from="1586789438818" duration="4974000" />
-      <workItem from="1587010181437" duration="27000" />
+      <workItem from="1587010181437" duration="2113000" />
+      <workItem from="1587048611866" duration="2660000" />
+      <workItem from="1587871967927" duration="565000" />
     </task>
     <servers />
   </component>
@@ -168,38 +171,38 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="310" y="284" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.23.1440.877/-1920.-90.1920.1057@0.23.1440.877" timestamp="1586491506582" />
-    <state width="1112" height="306" key="GridCell.Tab.0.bottom" timestamp="1586966285595">
+    <state width="1379" height="217" key="GridCell.Tab.0.bottom" timestamp="1588103670171">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="306" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.-90.1920.1057@-1920.-90.1920.1057" timestamp="1586825866508" />
-    <state width="930" height="275" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.-90.1920.1057@0.23.1440.877" timestamp="1586491607568" />
-    <state width="1112" height="306" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586966285595" />
-    <state width="1112" height="306" key="GridCell.Tab.0.center" timestamp="1586966285595">
+    <state width="1112" height="306" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.-90.1920.1057@-1920.-90.1920.1057" timestamp="1587048895743" />
+    <state width="1379" height="217" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.-90.1920.1057@0.23.1440.877" timestamp="1588103670171" />
+    <state width="1379" height="217" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1588096806469" />
+    <state width="1379" height="217" key="GridCell.Tab.0.center" timestamp="1588103670169">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="306" key="GridCell.Tab.0.center/0.23.1440.877/-1920.-90.1920.1057@-1920.-90.1920.1057" timestamp="1586825866507" />
-    <state width="930" height="275" key="GridCell.Tab.0.center/0.23.1440.877/-1920.-90.1920.1057@0.23.1440.877" timestamp="1586491607568" />
-    <state width="1112" height="306" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1586966285595" />
-    <state width="1112" height="306" key="GridCell.Tab.0.left" timestamp="1586966285595">
+    <state width="1112" height="306" key="GridCell.Tab.0.center/0.23.1440.877/-1920.-90.1920.1057@-1920.-90.1920.1057" timestamp="1587048895742" />
+    <state width="1379" height="217" key="GridCell.Tab.0.center/0.23.1440.877/-1920.-90.1920.1057@0.23.1440.877" timestamp="1588103670169" />
+    <state width="1379" height="217" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1588096806468" />
+    <state width="1379" height="217" key="GridCell.Tab.0.left" timestamp="1588103670168">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="306" key="GridCell.Tab.0.left/0.23.1440.877/-1920.-90.1920.1057@-1920.-90.1920.1057" timestamp="1586825866500" />
-    <state width="930" height="275" key="GridCell.Tab.0.left/0.23.1440.877/-1920.-90.1920.1057@0.23.1440.877" timestamp="1586491607567" />
-    <state width="1112" height="306" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1586966285595" />
-    <state width="1112" height="306" key="GridCell.Tab.0.right" timestamp="1586966285595">
+    <state width="1112" height="306" key="GridCell.Tab.0.left/0.23.1440.877/-1920.-90.1920.1057@-1920.-90.1920.1057" timestamp="1587048895741" />
+    <state width="1379" height="217" key="GridCell.Tab.0.left/0.23.1440.877/-1920.-90.1920.1057@0.23.1440.877" timestamp="1588103670168" />
+    <state width="1379" height="217" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1588096806467" />
+    <state width="1379" height="217" key="GridCell.Tab.0.right" timestamp="1588103670170">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="306" key="GridCell.Tab.0.right/0.23.1440.877/-1920.-90.1920.1057@-1920.-90.1920.1057" timestamp="1586825866507" />
-    <state width="930" height="275" key="GridCell.Tab.0.right/0.23.1440.877/-1920.-90.1920.1057@0.23.1440.877" timestamp="1586491607568" />
-    <state width="1112" height="306" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1586966285595" />
-    <state x="229" y="100" key="SettingsEditor" timestamp="1586491527819">
+    <state width="1112" height="306" key="GridCell.Tab.0.right/0.23.1440.877/-1920.-90.1920.1057@-1920.-90.1920.1057" timestamp="1587048895742" />
+    <state width="1379" height="217" key="GridCell.Tab.0.right/0.23.1440.877/-1920.-90.1920.1057@0.23.1440.877" timestamp="1588103670170" />
+    <state width="1379" height="217" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1588096806468" />
+    <state x="229" y="100" key="SettingsEditor" timestamp="1588085428269">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="229" y="100" key="SettingsEditor/0.23.1440.877/-1920.-90.1920.1057@0.23.1440.877" timestamp="1586491527819" />
-    <state x="376" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1587010183112">
+    <state x="229" y="100" key="SettingsEditor/0.23.1440.877/-1920.-90.1920.1057@0.23.1440.877" timestamp="1588085428269" />
+    <state x="376" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1587871968587">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="376" y="296" key="com.intellij.ide.util.TipDialog/0.23.1440.877/-1920.-90.1920.1057@0.23.1440.877" timestamp="1586222491237" />
+    <state x="376" y="296" key="com.intellij.ide.util.TipDialog/0.23.1440.877/-1920.-90.1920.1057@0.23.1440.877" timestamp="1587871968587" />
     <state x="376" y="296" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1587010183112" />
     <state x="337" y="86" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585537078967">
       <screen x="0" y="23" width="1440" height="877" />
@@ -224,10 +227,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_bot$bot.coverage" NAME="bot Coverage Results" MODIFIED="1585616610715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_bot$bot__1_.coverage" NAME="bot (1) Coverage Results" MODIFIED="1586825866483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_bot$twitter_bot_.coverage" NAME="twitter bot  Coverage Results" MODIFIED="1586491483031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python-bot" />
   </component>
 </project>
